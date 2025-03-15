@@ -53,3 +53,8 @@ button:hover {
      margin: 1rem;
      border-radius: 1rem;
 }
+
+.faq-headline {
+    display: flex;
+    gap: 2rem;
+}
