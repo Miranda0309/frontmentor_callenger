@@ -67,3 +67,7 @@ button:hover {
 .according-container .according-item:not(:last-child){
     border-bottom: 2px solid var(--light-pink);
 }
+
+.according-item .icons img {
+    min-width: 30px;
+}
