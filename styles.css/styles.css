@@ -71,3 +71,26 @@ button:hover {
 .according-item .icons img {
     min-width: 30px;
 }
+
+.according-item .icons .minus-icon {
+    display: none;
+}
+
+.according-description {
+    background-color: var(--white);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+}
+
+.according-description p {
+    color: var(--grayish-purple);
+    padding: 1.5rem 0;
+}
+
+@media (max-width: 540px) {
+    body{
+        background-image: url(/faq-accordion-main/assets/images/background-pattern-mobile.svg);
+    }
+
+}
