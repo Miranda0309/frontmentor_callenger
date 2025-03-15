@@ -41,3 +41,15 @@ button {
     gap: 1rem;
     border: 0;
 }
+
+button:hover {
+    color: purple;
+}
+
+.container {
+     background-color: var(--white);
+     max-width: 800px;
+     padding: 1.5rem;
+     margin: 1rem;
+     border-radius: 1rem;
+}
