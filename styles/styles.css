@@ -102,6 +102,6 @@ button:hover {
 
 @media (max-width: 540px) {
     body {
-        background-image: url(/faq-accordion-main/assets/images/background-pattern-mobile.svg);
+        background-image: url(./faq-accordion-main/assets/images/background-pattern-mobile.svg);
     }
 }
